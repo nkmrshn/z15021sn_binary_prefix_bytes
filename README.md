@@ -1,0 +1,41 @@
+# Binary Prefix Bytes
+
+This is a Ruby String class extension. It converts SI/IEC binary prefix bytes to numerical value.
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'z15021sn_binary_prefix_bytes'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install z15021sn_binary_prefix_bytes
+
+## Usage
+
+irb(main):001:0> require '.z15021sn_binary_prefix_bytes'
+=> true
+irb(main):002:0> "1MB".z15021sn_binary_prefix_bytes
+=> 1048576
+
+## Development
+
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/nkmrshn/z15021sn_binary_prefix_bytes.
+
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
