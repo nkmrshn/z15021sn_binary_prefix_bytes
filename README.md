@@ -23,7 +23,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-irb(main):001:0> require '.z15021sn_binary_prefix_bytes'
+irb(main):001:0> require 'z15021sn_binary_prefix_bytes'
 => true
 irb(main):002:0> "1MB".z15021sn_binary_prefix_bytes
 => 1048576
