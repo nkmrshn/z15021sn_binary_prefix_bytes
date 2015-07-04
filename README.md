@@ -1,5 +1,7 @@
 # Binary Prefix Bytes
 
+[![Build Status](https://travis-ci.org/nkmrshn/z15021sn_binary_prefix_bytes.svg?branch=master)](https://travis-ci.org/nkmrshn/z15021sn_binary_prefix_bytes)
+
 This is a Ruby String class extension. It converts SI/IEC binary prefix bytes to numerical value.
 
 ## Installation
