@@ -12,7 +12,6 @@ class String
     ($~[3..10]).each_with_index {|m, i| exponent = i + 1 if m != nil }
     return nil if exponent == nil
 
-    value = value * 2 ** (10 * exponent)
-    value = /^\d+\.0$/ =~ value.to_s ? value.to_i : value
+    value *= 2 ** (10 * exponent)
   end
 end
