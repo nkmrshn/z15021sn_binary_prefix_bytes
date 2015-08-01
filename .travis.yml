@@ -5,6 +5,7 @@ before_install: gem install bundler -v 1.10.5
 branches:
   only:
   - master
+  - /^v[0-9]/
 bundler_args: "--without production --path=vendor/bundle"
 cache:
   directories:
@@ -16,3 +17,4 @@ deploy:
   on:
     tags: true
     all_branches: true
+    condition: "$TRAVIS_TAG =~ ^v[0-9].*"
